@@ -1,0 +1,1309 @@
+@import url(//hello.myfonts.net/count/36dddf);
+@import url(//fonts.googleapis.com/css?family=Playfair+Display:400,700);
+@import url(//fonts.googleapis.com/css?family=Alegreya);
+@import url(//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #9e9c93;
+  font-family: 'Alegreya', serif; }
+
+a {
+  text-decoration: none; }
+
+@font-face {
+  font-family: 'Scriptina';
+  src: url(fonts/36DDDF_0_0.eot);
+  src: url(fonts/36DDDF_0_0.eot?#iefix) format("embedded-opentype"), url(fonts/36DDDF_0_0.woff2) format("woff2"), url(fonts/36DDDF_0_0.woff) format("woff"), url(fonts/36DDDF_0_0.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url(fonts/ProximaNovaRegular-webfont.eot);
+  src: url(fonts/ProximaNovaRegular-webfont.eot?#iefix) format("embedded-opentype"), url(fonts/ProximaNovaRegular-webfont.woff) format("woff"), url(fonts/ProximaNovaRegular-webfont.ttf) format("truetype"), url(fonts/ProximaNovaRegular-webfont.svg#proxima_nova_altregular) format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+section {
+  width: 100%;
+  display: table;
+  margin: 0 auto;
+  overflow-x: hidden; }
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto; }
+
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+.hero {
+  background: url(7067845956a87e6a40a334be3fbefbf6.jpg) no-repeat center;
+  background-size: cover;
+  height: 900px;
+  position: relative; }
+  .hero nav {
+    font-size: 13.33px;
+    background-color: rgba(86, 83, 76, 0.53);
+    min-height: 70px;
+    position: relative;
+    overflow: hidden; }
+    .hero nav .icon {
+      display: none;
+      position: absolute;
+      right: 50px;
+      top: 25px;
+      font-size: 18px;
+      color: white; }
+    .hero nav ul {
+      list-style-type: none;
+      text-align: center;
+      white-space: nowrap; }
+    .hero nav .logo {
+      float: left;
+      margin-top: 19px;
+      margin-left: -2px;
+      margin-right: 107px;
+      font-family: 'Scriptina', serif;
+      font-size: 30px;
+      color: white;
+      letter-spacing: 9px;
+      height: 44px;
+      width: 140px; }
+    .hero nav li {
+      display: inline-block;
+      margin: 27px 36px 0 0;
+      color: white;
+      float: left;
+      cursor: default; }
+    .hero nav li::after {
+      content: '~';
+      margin-left: 37px; }
+    .hero nav li:last-child:after {
+      content: ''; }
+    .hero nav li a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: white;
+      display: block;
+      float: left;
+      letter-spacing: 5px; }
+    .hero nav .social::after {
+      content: ''; }
+    .hero nav .social {
+      float: right;
+      margin: 0; }
+      .hero nav .social li {
+        margin-right: 28px;
+        cursor: pointer; }
+      .hero nav .social li::after {
+        content: ''; }
+      .hero nav .social li a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+      .hero nav .social .twitter {
+        background: url(51f06c7d10365c4b616e73f6f93120a5.png) no-repeat;
+        width: 16px;
+        height: 13px;
+        margin-top: 28px; }
+      .hero nav .social .facebook {
+        background: url(f9dad3d8f167f09a83cbd3be9e4cd181.png) no-repeat;
+        width: 8px;
+        height: 15px;
+        margin-top: 28px; }
+      .hero nav .social .instagram {
+        background: url(a7af0a06e82cb641bfa83a13edf466f3.png) no-repeat;
+        width: 14px;
+        height: 16px;
+        margin-right: 0; }
+  .hero h1 {
+    font-size: 92px;
+    margin-top: 196px;
+    margin-left: 8px;
+    margin-bottom: 60px;
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 6.5px;
+    text-shadow: 1px 1px 1px #280511; }
+  .hero p {
+    font-size: 22.5px;
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    color: white;
+    text-align: center;
+    max-width: 570px;
+    margin: 0 auto;
+    padding-left: 5px;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 1px #000000;
+    line-height: 35px; }
+  .hero .btn {
+    border: 1px dashed #9e9c93;
+    background-color: rgba(86, 83, 76, 0.53);
+    width: 200px;
+    height: 50px;
+    margin: 64px auto;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-left: 3px; }
+  .hero .dashed-line {
+    width: 190px;
+    height: 12px;
+    background: url(d2eb3d7597d9468957c51946dfbbf20b.png) no-repeat center;
+    margin: 0 auto 59px; }
+  .hero .hero-foot {
+    width: 100%;
+    height: 120px;
+    background: url(7fda63df89ead025a7bf552919ed05ff.png) no-repeat center;
+    bottom: -66px;
+    position: absolute;
+    z-index: 5; }
+
+.cakes {
+  background: #fdfdfc;
+  height: 760px; }
+  .cakes .left, .cakes .right {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: table-cell; }
+  .cakes .left h1 {
+    color: #56534c;
+    font-size: 47.25px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 97px;
+    margin-left: 5px;
+    margin-bottom: 0;
+    letter-spacing: 2px; }
+  .cakes .left h2 {
+    color: #a47d5e;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 5px;
+    letter-spacing: 2px; }
+  .cakes .left p {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    color: #56534c;
+    font-size: 13.5px;
+    line-height: 24px;
+    text-align: center;
+    max-width: 520px;
+    margin: 62px auto 35px;
+    letter-spacing: 1.5px; }
+  .cakes .left h3 {
+    color: #56534c;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 5px;
+    text-align: center; }
+  .cakes .left .cook {
+    white-space: nowrap;
+    margin: 43px auto 0;
+    display: table; }
+    .cakes .left .cook .pic {
+      margin-right: 16px;
+      float: left;
+      display: table-cell; }
+    .cakes .left .cook .firstname, .cakes .left .cook .lastname {
+      float: left;
+      padding: 17px 15px 15px 15px;
+      border-top: 1px solid #d7d5ca;
+      border-bottom: 1px solid #d7d5ca;
+      margin-top: 20px;
+      color: #56534c;
+      font-size: 24px;
+      text-align: center;
+      display: table-cell;
+      width: 110px;
+      letter-spacing: 0.5px; }
+    .cakes .left .cook .firstname {
+      margin-right: 25px;
+      margin-left: 3px; }
+    .cakes .left .cook .lastname {
+      margin-left: 7px; }
+  .cakes .left .quote {
+    margin: 16px auto;
+    text-align: center;
+    max-width: 450px;
+    display: table; }
+    .cakes .left .quote .left, .cakes .left .quote .right {
+      font-family: 'Times New Roman', sans-serif;
+      color: rgba(86, 83, 76, 0.5);
+      font-size: 58px;
+      font-weight: 400;
+      text-align: center;
+      width: 40px;
+      float: left;
+      display: table-cell;
+      margin: 0; }
+    .cakes .left .quote .right {
+      -webkit-transform: scale(1, -1);
+              transform: scale(1, -1);
+      margin-top: 51px;
+      margin-left: 28px; }
+    .cakes .left .quote .left {
+      margin-bottom: 50px;
+      margin-left: 15px;
+      margin-top: -5px; }
+    .cakes .left .quote p {
+      font-family: 'Scriptina', serif;
+      color: #a8865e;
+      font-size: 24px;
+      line-height: 30px;
+      text-align: center;
+      display: table-cell;
+      float: left;
+      max-width: 280px;
+      letter-spacing: 0;
+      margin: 0 0 0 28px;
+      padding-top: 28px; }
+  .cakes .right {
+    margin-top: 120px;
+    padding-left: 10px;
+    position: relative;
+    letter-spacing: 1.5px; }
+    .cakes .right img {
+      max-width: 100%;
+      height: auto; }
+    .cakes .right .top-left, .cakes .right .top-right, .cakes .right .bottom-left, .cakes .right .bottom-right {
+      margin-bottom: 16px; }
+    .cakes .right .top-right, .cakes .right .bottom-right {
+      margin-left: 16px; }
+    .cakes .right .middle {
+      position: absolute;
+      top: 137px;
+      margin: 0 auto;
+      left: 2px;
+      right: 0;
+      background: url(c1d71157a3ea78f66e1311bd5cb95947.png) no-repeat;
+      width: 247px;
+      height: 247px; }
+      .cakes .right .middle p {
+        text-align: center;
+        color: #c9b176;
+        font-size: 30px;
+        line-height: 36px;
+        width: 200px;
+        margin-top: 88px;
+        margin-left: 27px; }
+
+.pancakes {
+  height: 760px;
+  background: url(2383706141d22773a3552425445188f8.jpg) no-repeat center;
+  background-size: cover;
+  padding: 140px 70px 100px 263px; }
+  .pancakes .content {
+    height: 512px;
+    width: 965px;
+    position: relative;
+    box-shadow: 35px 10px 35px -10px rgba(105, 80, 58, 0.2);
+    display: table; }
+    .pancakes .content .left, .pancakes .content .right {
+      width: 50%;
+      float: left;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      display: table-cell; }
+    .pancakes .content .left {
+      background: url(2fab5c0c0064cf7038716e0fe2343423.png) no-repeat;
+      background-size: cover;
+      position: relative; }
+      .pancakes .content .left .text-bg {
+        right: -1px;
+        top: -1px;
+        position: absolute;
+        width: 65px;
+        height: 100%;
+        background: white;
+        box-shadow: inset 1px 0 0 0 rgba(0, 0, 0, 0.4); }
+      .pancakes .content .left .menu-btn {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        top: 232px;
+        position: absolute;
+        right: 36px;
+        background: white;
+        z-index: 5;
+        cursor: pointer; }
+        .pancakes .content .left .menu-btn img {
+          margin: 17px auto 0 18px; }
+      .pancakes .content .left .rating {
+        position: absolute;
+        left: 30px;
+        top: 186px; }
+        .pancakes .content .left .rating ul {
+          list-style: none; }
+        .pancakes .content .left .rating li {
+          margin-bottom: 10px;
+          cursor: pointer; }
+        .pancakes .content .left .rating .checked {
+          background: url(45792a5ad098bf5dd80a07776ef80077.png);
+          width: 21px;
+          height: 20px; }
+        .pancakes .content .left .rating .unchecked {
+          background: url(81cb5400c2eb6631ac56816b28787014.png);
+          width: 21px;
+          height: 20px; }
+    .pancakes .content .right {
+      padding-top: 40px;
+      background: white; }
+      .pancakes .content .right .mill {
+        position: absolute;
+        background: url(c6d2f4b4c381c5639fa549ef94a6ac13.png) no-repeat;
+        width: 261px;
+        height: 294px;
+        bottom: 3px;
+        right: 1px;
+        z-index: 0; }
+      .pancakes .content .right h1, .pancakes .content .right h2 {
+        font-weight: 700;
+        text-align: left;
+        letter-spacing: 1.5px; }
+      .pancakes .content .right h1 {
+        color: #56534c;
+        font-size: 48px;
+        margin-bottom: 6px; }
+      .pancakes .content .right h2 {
+        color: #a47d5e;
+        font-size: 13.8px; }
+      .pancakes .content .right p {
+        font-family: 'Proxima Nova', Georgia, sans-serif;
+        color: #56534c;
+        font-size: 13.5px;
+        line-height: 24px;
+        text-align: left;
+        max-width: 410px;
+        margin-top: 61px;
+        margin-left: -1px;
+        letter-spacing: 1.5px;
+        position: relative;
+        z-index: 5; }
+      .pancakes .content .right .slide {
+        position: relative;
+        width: 100%;
+        margin: 100px auto auto 0;
+        z-index: 5; }
+        .pancakes .content .right .slide ul {
+          list-style-type: none;
+          position: relative; }
+        .pancakes .content .right .slide li {
+          display: inline-block;
+          position: relative; }
+        .pancakes .content .right .slide img {
+          width: 100%; }
+        .pancakes .content .right .slide .slide-left {
+          background: url(945b7ef67ba1a11b0191c2f689455b16.png) no-repeat;
+          width: 32px;
+          height: 32px;
+          margin-right: 12px;
+          margin-left: -4px; }
+        .pancakes .content .right .slide .first-img {
+          margin-right: 27px; }
+        .pancakes .content .right .slide .second-img {
+          margin-right: 27px; }
+        .pancakes .content .right .slide .third-img {
+          margin-right: 14px; }
+        .pancakes .content .right .slide .slide-right {
+          background: url(164c4d5b1a0120066234ef7d8f406690.png) no-repeat;
+          width: 32px;
+          height: 32px; }
+        .pancakes .content .right .slide .slide-left, .pancakes .content .right .slide .slide-right {
+          margin-bottom: 29px;
+          cursor: pointer; }
+    .pancakes .content .ready {
+      width: 200px;
+      height: 200px;
+      background: #ffffff url(2429af450db6b2ccd6fabdcec3db9431.png) no-repeat;
+      position: absolute;
+      top: -43px;
+      right: -105px;
+      letter-spacing: 2px;
+      box-shadow: 30px 30px 45px rgba(105, 80, 58, 0.2); }
+      .pancakes .content .ready h1 {
+        color: #a47d5e;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 30px; }
+      .pancakes .content .ready h2 {
+        color: #dfc691;
+        font-size: 92px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 40px;
+        letter-spacing: 5px; }
+      .pancakes .content .ready h3 {
+        color: #979285;
+        font-size: 17.5px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 25px; }
+
+.breakfast {
+  height: 760px;
+  background: url(b5943ca63a867acd24c02067d13da474.jpg) no-repeat center;
+  background-size: cover; }
+  .breakfast .left, .breakfast .right {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: table-cell; }
+  .breakfast .left {
+    padding-top: 81px;
+    padding-left: 90px; }
+    .breakfast .left h1, .breakfast .left h2 {
+      margin: 0; }
+    .breakfast .left h1 {
+      color: #ffffff;
+      font-size: 59px;
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: 5px;
+      margin-left: 5px; }
+    .breakfast .left h2 {
+      color: #c8a693;
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: 1px;
+      margin-bottom: 62px; }
+    .breakfast .left .menu-item {
+      margin-bottom: 8px;
+      margin-left: -2px; }
+      .breakfast .left .menu-item h1 {
+        color: #ffffff;
+        font-size: 29.25px;
+        font-weight: 700;
+        line-height: 29.5px;
+        text-align: center;
+        letter-spacing: 2px;
+        margin-left: -2px; }
+      .breakfast .left .menu-item h2 {
+        font-family: 'Proxima Nova', Georgia, sans-serif;
+        color: #c2beba;
+        font-size: 14px;
+        letter-spacing: 1.5px;
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 22px;
+        margin-right: 4px; }
+      .breakfast .left .menu-item h3 {
+        color: #dfc791;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 1.5px; }
+    .breakfast .left .menu-vector {
+      background: url(408c278e548c10c8db4f83cba8cb1c49.png) no-repeat center;
+      width: 90px;
+      height: 27px;
+      margin: 15px auto 12px; }
+    .breakfast .left .toast-fix {
+      margin-top: -3px; }
+      .breakfast .left .toast-fix h2 {
+        margin-top: 12px;
+        margin-bottom: 25px;
+        margin-left: -2px; }
+    .breakfast .left .muffins-fix h2 {
+      margin-bottom: 26px; }
+  .breakfast .right .paper {
+    background: url(bb9f99eded90108106e5b162f216923e.png) no-repeat;
+    margin-top: 74px;
+    margin-left: 188px;
+    width: 100%;
+    height: 630px;
+    padding-top: 66px; }
+    .breakfast .right .paper p {
+      color: #56534c;
+      font-size: 14px;
+      font-weight: 700;
+      float: left;
+      text-align: center;
+      letter-spacing: 1px; }
+    .breakfast .right .paper .est {
+      margin-right: 173px;
+      margin-left: 108px;
+      letter-spacing: 1px; }
+    .breakfast .right .paper h1 {
+      color: #56534c;
+      font-size: 44px;
+      font-weight: 700;
+      text-align: center;
+      line-height: 60px;
+      margin: 149px auto 30px 38px;
+      max-width: 370px;
+      letter-spacing: 1.5px; }
+    .breakfast .right .paper .desc {
+      font-family: 'Proxima Nova', Georgia, sans-serif;
+      color: #56534c;
+      font-size: 14px;
+      line-height: 30px;
+      text-align: center;
+      max-width: 340px;
+      margin: 0 54px 44px;
+      letter-spacing: 0.7px; }
+    .breakfast .right .paper .btn-read {
+      width: 190px;
+      height: 50px;
+      border: 1px solid #9e9c93;
+      margin: 0 auto 0 127px; }
+      .breakfast .right .paper .btn-read a {
+        color: #a47d5e;
+        display: block;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: 1px; }
+
+.sandwich {
+  background-color: #f3f1e9;
+  height: 1160px;
+  padding-top: 11px;
+  padding-right: 1px; }
+  .sandwich .mill {
+    background: url(29a905e19b4fb8d0f113c9c3a196312a.png) no-repeat;
+    width: 108px;
+    height: 123px;
+    margin: 0 auto;
+    text-align: center; }
+  .sandwich h1 {
+    color: #56534c;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    margin: -30px auto 0 10px;
+    letter-spacing: 2px; }
+  .sandwich h2 {
+    color: #a47d5e;
+    font-size: 13.5px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1.75px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    margin-left: 3px; }
+  .sandwich .products {
+    float: left;
+    max-width: 300px; }
+    .sandwich .products .product h1 {
+      color: #a47d5e;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 30px;
+      text-align: center;
+      margin: 20px auto 0 -5px; }
+    .sandwich .products .product p {
+      font-family: 'Proxima Nova', Georgia, sans-serif;
+      color: #56534c;
+      font-size: 13.5px;
+      line-height: 20px;
+      text-align: center;
+      margin-top: 21px;
+      margin-bottom: 68px;
+      margin-left: -5px;
+      letter-spacing: 1.5px; }
+    .sandwich .products .product img {
+      margin: -13px auto 0 96px;
+      display: block; }
+  .sandwich .picture {
+    max-width: 840px;
+    height: 556px;
+    background: white;
+    float: right;
+    margin-top: 79px;
+    position: relative;
+    padding: 10px;
+    box-shadow: 10px 10px 25px -5px rgba(105, 80, 58, 0.15); }
+    .sandwich .picture .full-recipe {
+      position: absolute;
+      border-radius: 5px;
+      height: 300px;
+      max-width: 250px;
+      background: rgba(0, 0, 0, 0.75);
+      top: 230px;
+      left: 50px;
+      padding: 30px;
+      display: none;
+      z-index: 9999; }
+      .sandwich .picture .full-recipe h1 {
+        color: #a47d5e;
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+      .sandwich .picture .full-recipe p {
+        color: white;
+        text-align: center; }
+    .sandwich .picture .btn {
+      position: absolute;
+      bottom: -18px;
+      left: -22px;
+      border: 1px dashed #dfc691;
+      background-color: #ffffff;
+      width: 172px;
+      height: 60px; }
+      .sandwich .picture .btn a {
+        color: #dfc691;
+        font-size: 17.5px;
+        font-weight: 700;
+        line-height: 58px;
+        text-align: center;
+        letter-spacing: 1.5px;
+        display: block; }
+    .sandwich .picture .recipe {
+      position: absolute;
+      right: 10px;
+      top: 6px;
+      font-family: 'Alegreya', serif; }
+      .sandwich .picture .recipe .step {
+        width: 200px;
+        height: 200px;
+        letter-spacing: 2px;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: 1px auto 31px; }
+        .sandwich .picture .recipe .step h1 {
+          color: #a47d5e;
+          font-size: 18px;
+          font-weight: 700;
+          text-align: center;
+          padding-top: 40px;
+          margin-right: 5px; }
+        .sandwich .picture .recipe .step h2 {
+          color: #56534c;
+          font-size: 60px;
+          font-weight: 700;
+          text-align: center;
+          letter-spacing: 5px;
+          padding-top: 5px;
+          margin-left: 5px; }
+        .sandwich .picture .recipe .step h3 {
+          color: #979285;
+          font-size: 17.5px;
+          font-weight: 700;
+          text-align: center;
+          padding-top: 18px;
+          padding-bottom: 0;
+          margin-left: 1px;
+          background: none; }
+      .sandwich .picture .recipe :last-child {
+        background: #ffffff url(2429af450db6b2ccd6fabdcec3db9431.png) no-repeat; }
+        .sandwich .picture .recipe :last-child h1 {
+          padding-top: 25px;
+          padding-bottom: 10px;
+          margin-top: -31px; }
+        .sandwich .picture .recipe :last-child h2 {
+          color: #dfc691;
+          font-size: 92px;
+          padding-top: 15px; }
+        .sandwich .picture .recipe :last-child h3 {
+          padding-top: 29px; }
+    .sandwich .picture img {
+      width: 100%;
+      height: 100%;
+      position: relative; }
+  .sandwich nav {
+    font-size: 13.25px;
+    min-height: 70px;
+    margin: 18px auto;
+    float: left;
+    display: table;
+    text-align: center;
+    width: 100%; }
+    .sandwich nav ul {
+      list-style-type: none; }
+    .sandwich nav .logo {
+      margin: 52px 45px 0 40px;
+      color: #56534c;
+      font-family: 'Scriptina', serif;
+      font-size: 30px;
+      float: left;
+      letter-spacing: 9px;
+      border: none; }
+    .sandwich nav .logo::after {
+      content: ''; }
+    .sandwich nav li {
+      display: inline-block;
+      margin-top: 28px;
+      color: #403e3a;
+      float: left;
+      cursor: default;
+      border-top: 1px solid #bfbbb7;
+      border-bottom: 1px solid #bfbbb7;
+      padding: 27px 0 27px 36px; }
+    .sandwich nav li::after {
+      margin-left: 36px;
+      content: '~'; }
+    .sandwich nav li:last-child:after {
+      content: ''; }
+    .sandwich nav li:last-child {
+      padding-right: 0; }
+    .sandwich nav li:first-child {
+      padding-left: 40px; }
+    .sandwich nav li a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #35332f;
+      display: block;
+      float: left;
+      letter-spacing: 5px;
+      font-weight: 600; }
+
+@media screen and (max-width: 1280px) {
+  .hero {
+    min-height: 900px; }
+    .hero h1 {
+      font-size: 7vw; }
+    .hero nav {
+      font-size: 1vw; }
+      .hero nav .logo {
+        margin-left: 30px;
+        margin-right: 5%; }
+      .hero nav .social {
+        margin-right: 10px; }
+    .hero p {
+      font-size: 2vw; }
+  .cakes {
+    min-height: 760px; }
+    .cakes .left {
+      width: 100%;
+      margin-bottom: 60px; }
+    .cakes .right {
+      width: 70%;
+      left: 15%;
+      margin: 0 auto;
+      text-align: center; }
+      .cakes .right img {
+        display: inline-block; }
+      .cakes .right .middle {
+        margin: 0 auto;
+        left: 0;
+        right: 0; }
+  .pancakes {
+    padding-left: 0; }
+    .pancakes .content {
+      width: 90%;
+      display: table;
+      margin: 0 auto; }
+  .breakfast {
+    min-height: 760px; }
+    .breakfast .left, .breakfast .right {
+      width: 50%; }
+    .breakfast .right .paper {
+      margin-left: 50px; }
+  .sandwich {
+    min-height: 1160px; }
+    .sandwich .products, .sandwich .picture {
+      margin: 0 auto;
+      float: none;
+      display: table;
+      text-align: center; }
+    .sandwich .products {
+      margin: 50px auto;
+      width: 100%; }
+    .sandwich .picture {
+      width: 70%; }
+    .sandwich nav {
+      margin: 100px auto;
+      float: none; } }
+
+@media screen and (max-width: 1024px) {
+  .hero nav li {
+    display: none; }
+  .hero nav .icon {
+    float: right;
+    display: block; }
+  .hero .responsive {
+    position: relative;
+    transition: 0.4s; }
+    .hero .responsive li {
+      display: block;
+      float: none;
+      margin-right: 0; }
+    .hero .responsive li::after {
+      content: ''; }
+    .hero .responsive li a {
+      float: none; }
+    .hero .responsive .logo {
+      float: none;
+      margin: 20px auto; }
+    .hero .responsive .social {
+      float: none;
+      margin-left: -40px;
+      margin-bottom: 10px; }
+      .hero .responsive .social li {
+        display: inline-block;
+        float: none;
+        margin-left: 35px;
+        margin-right: 0; }
+  .hero h1 {
+    margin-top: 130px; }
+  .pancakes .content .right h1 {
+    font-size: 4.5vw; }
+  .pancakes .content .right .slide {
+    margin-left: -20px; }
+    .pancakes .content .right .slide .first-img, .pancakes .content .right .slide .second-img, .pancakes .content .right .slide .third-img {
+      margin-right: 2%; }
+  .pancakes .content .right p {
+    max-width: 95%; }
+  .breakfast .left {
+    width: 35%;
+    padding-left: 30px; }
+  .breakfast .right {
+    width: 65%; }
+  .sandwich nav {
+    float: none;
+    text-align: center; }
+    .sandwich nav li {
+      float: none;
+      padding: 20px; }
+  .sandwich .picture {
+    width: 85%; }
+  .sandwich .logo {
+    display: none; } }
+
+@media screen and (max-width: 768px) {
+  .hero p {
+    font-size: 3vw; }
+  .hero h1 {
+    font-size: 9vw; }
+  .hero nav {
+    font-size: 14px; }
+  .cakes .right {
+    margin-bottom: 50px;
+    left: 15%; }
+    .cakes .right .top-right, .cakes .right .bottom-right {
+      margin: 0 auto; }
+    .cakes .right .middle {
+      top: 400px; }
+  .pancakes .content .left {
+    width: 40%; }
+  .pancakes .content .ready {
+    right: -90px; }
+  .pancakes .content .right {
+    width: 60%; }
+    .pancakes .content .right .slide {
+      margin-top: 30px; }
+      .pancakes .content .right .slide .slide-left, .pancakes .content .right .slide .slide-right {
+        width: 100%;
+        margin: 0 auto; }
+  .breakfast .left, .breakfast .right {
+    width: 100%; }
+  .breakfast .left {
+    padding-left: 0; }
+  .breakfast .right {
+    padding-left: 50px; }
+    .breakfast .right .paper {
+      margin: 30px auto; }
+  .sandwich .picture {
+    width: 80%;
+    height: 95%; }
+    .sandwich .picture .btn {
+      left: -12px;
+      width: 130px;
+      height: 60px; }
+      .sandwich .picture .btn a {
+        color: #dfc691;
+        font-size: 17.5px;
+        font-weight: 700;
+        line-height: 58px;
+        text-align: center;
+        letter-spacing: 1.5px;
+        display: block; }
+  .sandwich nav li {
+    padding: 20px; }
+  .sandwich nav .last, .sandwich nav .first {
+    padding: 20px; } }
+
+@media screen and (max-width: 600px) {
+  .hero h1 {
+    font-size: 12.5vw; }
+  .hero p {
+    font-size: 6vw; }
+  .pancakes {
+    padding-right: 0; }
+    .pancakes .content {
+      padding-right: 0;
+      width: 100%; }
+      .pancakes .content .left {
+        width: 30%; }
+        .pancakes .content .left .rating {
+          display: none; }
+      .pancakes .content .ready {
+        width: 160px;
+        height: 170px;
+        display: none; }
+        .pancakes .content .ready h2 {
+          margin-top: 20px;
+          font-size: 15vw; }
+      .pancakes .content .right {
+        width: 70%; }
+        .pancakes .content .right h1 {
+          font-size: 10vw; }
+  .sandwich .picture {
+    width: 95%;
+    height: 100%; }
+    .sandwich .picture .recipe .step {
+      width: 120px;
+      height: 130px; }
+      .sandwich .picture .recipe .step h1 {
+        font-size: 5vw;
+        padding-top: 10px;
+        padding-bottom: 0; }
+      .sandwich .picture .recipe .step h2 {
+        font-size: 13vw;
+        padding: 0;
+        margin: 0 0 0 5px; }
+      .sandwich .picture .recipe .step h3 {
+        padding: 0;
+        margin-top: 10px; }
+  .sandwich nav li {
+    padding: 20px 0 20px 35px; }
+  .sandwich nav li::after {
+    content: ''; }
+  .sandwich nav li:first-child {
+    padding: 20px 0 20px 35px; }
+  .sandwich nav li:last-child {
+    padding: 20px 0 20px 35px; } }
+
+@media screen and (max-width: 480px) {
+  .cakes .left .quote .right {
+    margin-left: 0;
+    margin-right: 20px; }
+  .cakes .left .quote p {
+    margin: 0;
+    max-width: 200px; }
+  .pancakes .content .left {
+    width: 20%; }
+  .pancakes .content .right {
+    width: 80%; }
+  .breakfast .right {
+    padding-left: 0; }
+    .breakfast .right .paper h1 {
+      margin: 100px auto 30px 38px; }
+    .breakfast .right .paper .desc {
+      margin: 0 auto 50px; } }
+
